@@ -34,7 +34,8 @@ A simple Python implementation of an **Expression Tree** that:
 The expression is tokenized using regular expressions:
 
 ```python
-re.findall(r'\d+|[+\-*/()]', expression)```
+re.findall(r'\d+|[+\-*/()]', expression)
+```
 
 ---
 
